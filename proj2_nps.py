@@ -30,6 +30,35 @@ class NationalSite:
     '''
 
     def __init__(self, category, name, address, zipcode, phone):
+        '''Constructs and initializes a class NationalSite
+
+        Parameters
+        ----------
+        self:
+            represents the instance of the class. By using the “self” keyword we can access the attributes and
+            methods of the class.
+
+        category: str
+            instance variable is the title of NationalSite
+
+        name: str
+            instance variable is the name of NationalSite
+
+        address: str
+            instance variable is the address of NationalSite
+
+        zipcode: str
+            instance variable is the zipcode of NationalSite
+
+        phone: str
+            instance variable is the phone of NationalSite
+
+        Returns
+        -------
+        None
+
+        '''
+
         self.category = category
         self.name = name
         self.address = address
@@ -165,6 +194,7 @@ def build_state_url_dict():
     Parameters
     ----------
     None
+
     Returns
     -------
     dict
